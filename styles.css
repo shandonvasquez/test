@@ -10,7 +10,13 @@
     /* display: inline-block; */
     box-sizing: border-box;
     float: left; /* Add this line to align cards horizontally */
+    transition: transform 0.5s ease;
 
+  }
+  .box:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+    box-shadow: 5px 15px 15px 1px rgb(40, 54, 247);
   }
   img {
     width: 100%;
@@ -37,12 +43,13 @@
     text-decoration: none;
     padding: 10px;
   }
-  
-  .option:hover {
-    background-color: #ccc;
+  h1{
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
   }
-  
-  h1 {
+  footer {
     display: flex;
     justify-content: center;
     padding: 10px;
